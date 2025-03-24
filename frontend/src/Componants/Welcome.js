@@ -11,7 +11,7 @@ export default function Welcome() {
     }
 
   return (
-    <div className='welcome-page'>
+    <div className='welcome-page mx-auto'>
        
 
 <div className='content'> 
