@@ -1,13 +1,14 @@
 import React from 'react'
 import "../Styles/Profile.css" 
 // import file from "../Componants/Assets/file.zip"
+import zipFile from "../Assets/file.zip"
 
 function Profile() {
   return (
     <div className='profile mx-auto'> 
     <div className='heading  p-4'> Account Settings</div> 
     <div className='d-flex justify-content-start mt-5 ps-2'>
-    <img className='side-img' alt="img" src="/"/>
+    <img className='side-img' alt="img" src={zipFile}/>
     <div className=' ms-3 d-flex justify-content-around flex-column'>
         <span className='fw-bold'>Marry Doe</span> 
         <span>Marry@Gmail.com</span>
