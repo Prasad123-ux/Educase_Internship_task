@@ -1,0 +1,25 @@
+.main-form-section{
+    max-width: 300px;
+    
+}
+
+/*  */
+.label{
+    color: #642AF5;
+    margin-top: 10px;
+}
+.form-section{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    
+}
+.account-create{
+    margin-top: 100px;
+    display: flex ; 
+    justify-content: center;
+    background:#6C25FF;
+    
+}
